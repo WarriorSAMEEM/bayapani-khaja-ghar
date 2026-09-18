@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bayapanikhajaghar.netlify.app/sitemap.xml

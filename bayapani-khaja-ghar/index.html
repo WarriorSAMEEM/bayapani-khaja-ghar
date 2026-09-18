@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0f1e3d" media="(prefers-color-scheme: dark)" />
+<meta name="theme-color" content="#f7f2e7" media="(prefers-color-scheme: light)" />
+
+<title>Bayapani Khaja Ghar — Restaurant in Khairahani, Parsa, Chitwan</title>
+<meta name="description" content="Bayapani Khaja Ghar (बयापानी खाजा घर) — family-owned restaurant in Khairahani 6, Parsa, Chitwan. Momo, chowmein, paratha, tea & more. Dine-in, takeaway, delivery. Opening 25 September 2026." />
+<link rel="canonical" href="https://bayapanikhajaghar.netlify.app/" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="restaurant.restaurant" />
+<meta property="og:title" content="Bayapani Khaja Ghar — Khairahani, Parsa, Chitwan" />
+<meta property="og:description" content="Fresh everyday favourites. Momo, chowmein, tea & more. Opening 25 September 2026." />
+<meta property="og:locale" content="en_NP" />
+<meta property="og:locale:alternate" content="ne_NP" />
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f1e3d'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='%23e6c66b' font-family='serif'%3EB%3C/text%3E%3C/svg%3E" />
+
+<link rel="stylesheet" href="styles/main.css" />
+
+<!-- Structured data: Restaurant / LocalBusiness -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Bayapani Khaja Ghar",
+  "alternateName": "बयापानी खाजा घर",
+  "servesCuisine": ["Nepali", "Momo", "Chowmein", "Snacks"],
+  "telephone": "+9779821233154",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Khairahani 6, Behind Chaudhary Medical",
+    "addressLocality": "Khairahani",
+    "addressRegion": "Parsa, Chitwan",
+    "addressCountry": "NP"
+  },
+  "openingHours": "Mo-Su 06:30-21:00",
+  "priceRange": "Rs",
+  "url": "https://bayapanikhajaghar.netlify.app/",
+  "hasMap": "https://share.google/TQzV5f70BfISX9l1h"
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ANNOUNCEMENT BANNER (auto-hides if inactive) -->
+<div id="announcement" class="announcement" hidden></div>
+
+<!-- HEADER -->
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="Bayapani Khaja Ghar home">
+      <span class="brand-mark">B</span>
+      <span class="brand-text">
+        <strong>Bayapani Khaja Ghar</strong>
+        <small lang="ne">बयापानी खाजा घर</small>
+      </span>
+    </a>
+
+    <nav class="primary-nav" id="primary-nav" aria-label="Main">
+      <ul>
+        <li><a href="#top">Home <span lang="ne">/ गृहपृष्ठ</span></a></li>
+        <li><a href="#menu">Menu <span lang="ne">/ मेन्यू</span></a></li>
+        <li><a href="#offers">Offers <span lang="ne">/ अफर</span></a></li>
+        <li><a href="#about">About <span lang="ne">/ हाम्रो</span></a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact <span lang="ne">/ सम्पर्क</span></a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true">◐</span>
+      </button>
+      <a class="btn btn-primary btn-sm header-order" href="#order">Order</a>
+      <button class="hamburger" id="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero-inner">
+      <p class="eyebrow">Khairahani 6 · Parsa · Chitwan</p>
+      <h1 id="hero-title">
+        Bayapani Khaja Ghar
+        <span class="np" lang="ne">बयापानी खाजा घर</span>
+      </h1>
+      <p class="hero-lead">
+        A small, family-owned kitchen serving fresh everyday favourites —
+        momo, chowmein, paratha, tea and more. Dine-in, takeaway, delivery,
+        or order on WhatsApp.
+      </p>
+
+      <!-- COUNTDOWN / OPEN STATE -->
+      <div id="opening" class="opening" aria-live="polite">
+        <div class="opening-soon" id="opening-soon">
+          <p class="opening-label">Coming Soon · <span lang="ne">चाँडै आउँदैछ</span></p>
+          <p class="opening-date">25 September 2026 · <span lang="ne">२०८३ असोज ०९</span></p>
+          <div class="countdown" id="countdown" role="timer" aria-label="Time until opening">
+            <div class="flip"><span class="flip-num" id="cd-days">00</span><span class="flip-label">Days</span></div>
+            <div class="flip"><span class="flip-num" id="cd-hours">00</span><span class="flip-label">Hours</span></div>
+            <div class="flip"><span class="flip-num" id="cd-mins">00</span><span class="flip-label">Minutes</span></div>
+            <div class="flip"><span class="flip-num" id="cd-secs">00</span><span class="flip-label">Seconds</span></div>
+          </div>
+        </div>
+        <div class="opening-open" id="opening-open" hidden>
+          <p class="open-title">We Are Open!</p>
+          <p class="open-np" lang="ne">हामी खुलिसकेका छौँ।</p>
+        </div>
+      </div>
+
+      <p class="tagline">“Your Satisfaction Is Our Satisfaction”</p>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#menu">View Menu</a>
+        <a class="btn btn-whatsapp" id="hero-wa" href="#" rel="noopener">Order on WhatsApp</a>
+        <a class="btn btn-ghost" id="hero-call" href="#">Call Now</a>
+        <a class="btn btn-ghost" id="hero-dir" href="#" target="_blank" rel="noopener">Get Directions</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="section" id="menu" aria-labelledby="menu-title">
+    <div class="wrap">
+      <header class="section-head">
+        <h2 id="menu-title">Our Menu <span class="np" lang="ne">मेन्यू</span></h2>
+        <p>Fresh, simple, everyday food. Prices shown where confirmed — others will be added soon.</p>
+      </header>
+
+      <div class="chips" id="menu-filters" role="tablist" aria-label="Menu categories"></div>
+
+      <div class="menu-grid" id="menu-grid" aria-live="polite"></div>
+
+      <p class="menu-note" id="menu-note" hidden></p>
+    </div>
+  </section>
+
+  <!-- ORDER BUILDER -->
+  <section class="section section-alt" id="order" aria-labelledby="order-title">
+    <div class="wrap">
+      <header class="section-head">
+        <h2 id="order-title">Order on WhatsApp <span class="np" lang="ne">व्हाट्सएप अर्डर</span></h2>
+        <p>Pick your items, choose takeaway or delivery, and send us a message. We'll confirm on WhatsApp.</p>
+      </header>
+
+      <div class="order-layout">
+        <div class="order-picker">
+          <div class="order-picker-head">
+            <label for="order-category">Category</label>
+            <select id="order-category"></select>
+          </div>
+          <ul class="order-items" id="order-items"></ul>
+        </div>
+
+        <aside class="order-summary" aria-labelledby="summary-title">
+          <h3 id="summary-title">Your Order</h3>
+          <ul class="summary-list" id="summary-list">
+            <li class="summary-empty">No items selected yet.</li>
+          </ul>
+
+          <fieldset class="order-type">
+            <legend>Order type</legend>
+            <label><input type="radio" name="ordertype" value="Takeaway" checked /> Takeaway <span lang="ne">/ टेकअवे</span></label>
+            <label><input type="radio" name="ordertype" value="Delivery" /> Delivery <span lang="ne">/ डेलिभरी</span></label>
+          </fieldset>
+          <p class="order-hint" id="delivery-hint" hidden>Delivery area/charge will be confirmed on WhatsApp.</p>
+
+          <div class="field">
+            <label for="cust-name">Name (optional)</label>
+            <input id="cust-name" type="text" autocomplete="name" />
+          </div>
+          <div class="field">
+            <label for="cust-phone">Phone (optional)</label>
+            <input id="cust-phone" type="tel" autocomplete="tel" />
+          </div>
+          <div class="field">
+            <label for="cust-note">Note (optional)</label>
+            <textarea id="cust-note" rows="2" placeholder="e.g. extra spicy, no onion"></textarea>
+          </div>
+
+          <button class="btn btn-whatsapp btn-block" id="send-order" type="button">Order on WhatsApp</button>
+          <p class="order-fineprint">Opens WhatsApp with your order pre-filled. No payment is taken here.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFERS -->
+  <section class="section" id="offers" aria-labelledby="offers-title">
+    <div class="wrap">
+      <header class="section-head">
+        <h2 id="offers-title">Special Offers <span class="np" lang="ne">विशेष अफर</span></h2>
+        <p>Active offers appear here automatically.</p>
+      </header>
+      <div id="offers-grid" class="offers-grid"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section section-alt" id="about" aria-labelledby="about-title">
+    <div class="wrap about-wrap">
+      <header class="section-head">
+        <h2 id="about-title">About Us <span class="np" lang="ne">हाम्रो बारेमा</span></h2>
+      </header>
+      <p>
+        Bayapani Khaja Ghar is a family-owned local food destination in
+        Khairahani 6, Parsa, Chitwan. We cook the everyday favourites —
+        momo, chowmein, paratha, tea and more — fresh, affordable and
+        served in a comfortable, welcoming space.
+      </p>
+      <p>
+        We are opening on <strong>25 September 2026 (2083 असोज 09)</strong>.
+        Dine-in seating for around 10–20 people, plus takeaway, delivery
+        and WhatsApp ordering.
+      </p>
+      <ul class="about-facts">
+        <li><strong>Location</strong><span>Khairahani 6, Parsa, Chitwan — behind Chaudhary Medical</span></li>
+        <li><strong>Hours</strong><span>6:30 AM – 9:00 PM daily</span></li>
+        <li><strong>Phone</strong><span>9821233154</span></li>
+        <li><strong>Seating</strong><span>Approx. 10–20 people</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section" id="gallery" aria-labelledby="gallery-title">
+    <div class="wrap">
+      <header class="section-head">
+        <h2 id="gallery-title">Gallery</h2>
+        <p>Photos from our kitchen and space will be added here soon.</p>
+      </header>
+      <div id="gallery-grid" class="gallery-grid"></div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section section-alt" id="reviews" aria-labelledby="reviews-title">
+    <div class="wrap center">
+      <header class="section-head">
+        <h2 id="reviews-title">Customer Reviews</h2>
+        <p>Once we're open, find us on Google Maps to leave a review.</p>
+      </header>
+      <div id="reviews-action" class="reviews-action"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT + MAP -->
+  <section class="section" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <header class="section-head">
+        <h2 id="contact-title">Contact & Location <span class="np" lang="ne">सम्पर्क</span></h2>
+      </header>
+
+      <div class="contact-layout">
+        <div class="contact-card">
+          <h3 id="contact-biz">Bayapani Khaja Ghar</h3>
+          <p class="contact-np" lang="ne">खैरहनी ६, पर्सा, चितवन</p>
+          <p class="contact-note">Behind Chaudhary Medical</p>
+          <dl class="contact-dl">
+            <dt>Phone</dt><dd><a id="contact-phone" href="#">9821233154</a></dd>
+            <dt>Hours</dt><dd>6:30 AM – 9:00 PM daily</dd>
+          </dl>
+          <div class="contact-cta">
+            <a class="btn btn-primary btn-sm" id="contact-call" href="#">Call Now</a>
+            <a class="btn btn-whatsapp btn-sm" id="contact-wa" href="#">WhatsApp</a>
+            <a class="btn btn-ghost btn-sm" id="contact-dir" href="#" target="_blank" rel="noopener">Get Directions</a>
+            <button class="btn btn-ghost btn-sm" id="share-btn" type="button">Share</button>
+          </div>
+
+          <div id="social-row" class="social-row" aria-label="Social links"></div>
+        </div>
+
+        <div class="map-card">
+          <iframe
+            title="Google Maps location of Bayapani Khaja Ghar"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Khairahani+6+Parsa+Chitwan+Nepal&output=embed">
+          </iframe>
+          <a class="btn btn-ghost btn-sm map-link" id="map-link" href="#" target="_blank" rel="noopener">Open in Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <p class="footer-brand">Bayapani Khaja Ghar</p>
+      <p class="footer-np" lang="ne">बयापानी खाजा घर</p>
+      <p class="footer-tagline">Your Satisfaction Is Our Satisfaction</p>
+    </div>
+    <div>
+      <p class="footer-head">Quick links</p>
+      <ul class="footer-links">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#offers">Offers</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-head">Visit</p>
+      <p>Khairahani 6, Parsa, Chitwan<br/>Behind Chaudhary Medical</p>
+      <p><a id="footer-phone" href="#">9821233154</a><br/>6:30 AM – 9:00 PM</p>
+      <p><a id="footer-map" href="#" target="_blank" rel="noopener">Google Maps</a></p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© <span id="year"></span> Bayapani Khaja Ghar. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close">×</button>
+  <img id="lightbox-img" alt="" />
+  <p class="lightbox-caption" id="lightbox-cap"></p>
+</div>
+
+<script type="module" src="scripts/main.js"></script>
+</body>
+</html>
